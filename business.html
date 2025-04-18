@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business News - NewsWeb</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <h1><a href="index.html">NewsWeb</a></h1>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search news...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="category-container">
+                <a href="index.html" class="category-btn" id="general">General</a>
+                <a href="business.html" class="category-btn active" id="business">Business</a>
+                <a href="sports.html" class="category-btn" id="sports">Sports</a>
+                <a href="technology.html" class="category-btn" id="technology">Technology</a>
+                <a href="entertainment.html" class="category-btn" id="entertainment">Entertainment</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h2 class="page-title">Latest Business News</h2>
+        <div class="news-container" id="news-container">
+            <!-- News cards will be added here dynamically -->
+        </div>
+    </main>
+
+    <div class="loader" id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 NewsWeb - Real-Time News</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
