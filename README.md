@@ -3,7 +3,7 @@
 A responsive news website that displays real-time news from various categories using the NewsAPI.
 
 ## Features
-
+<h4><a href="https://news-web-self.vercel.app/">Click to see Demo</a></h4>
 - Real-time news updates
 - Dedicated category pages (General, Business, Sports, Technology, Entertainment)
 - Detailed article pages with full content
